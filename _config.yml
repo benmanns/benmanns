@@ -1,11 +1,13 @@
 # Site settings
-url: http://www.benmanns.com
-title: Benjamin Manns
+url: https://www.benmanns.com
+title: Blog of Benjamin Manns
 description:
-email: ben@benmanns.com
+email: benmanns@gmail.com
 baseurl: ""
 twitter_username: benmanns
 github_username:  benmanns
+
+permalink: /posts/:title
 
 # Build settings
 markdown: kramdown
