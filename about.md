@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I (Ben) am a software engineer at [Doximity](https://www.doximity.com/about/company), the leading network for physicians ([join us](https://www.doximity.com/about/jobs)). I write [goworker](https://www.goworker.org) and a [few other projects](https://github.com/benmanns/repositories).
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+More info is in my [résumé](/resume.pdf). I am not actively seeking employment opportunities<!-- so please stop calling! -->.
