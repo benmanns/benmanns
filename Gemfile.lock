@@ -60,6 +60,7 @@ DEPENDENCIES
   aws-sdk-v1
   jekyll-sitemap
   octopress (~> 3.0)
+  octopress-deploy
 
 BUNDLED WITH
    1.11.2
