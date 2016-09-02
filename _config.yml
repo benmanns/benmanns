@@ -22,7 +22,7 @@ gems:
   - jekyll-sitemap
 
 mailhide: >-
-  <a href="http://www.google.com/recaptcha/mailhide/d?k=01p4aq0kLFnP8mRT5mFoT7pw==&amp;c=uEqgETHhuPHioiZ9soZvUb51S9wBZulVkUsxrkZvj-Q=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501p4aq0kLFnP8mRT5mFoT7pw\75\75\46c\75uEqgETHhuPHioiZ9soZvUb51S9wBZulVkUsxrkZvj-Q\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">benm...ns</a>@gmail.com
+  <a href="https://www.google.com/recaptcha/mailhide/d?k=01p4aq0kLFnP8mRT5mFoT7pw==&amp;c=uEqgETHhuPHioiZ9soZvUb51S9wBZulVkUsxrkZvj-Q=" onclick="window.open('https://www.google.com/recaptcha/mailhide/d?k\07501p4aq0kLFnP8mRT5mFoT7pw\75\75\46c\75uEqgETHhuPHioiZ9soZvUb51S9wBZulVkUsxrkZvj-Q\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">benm...ns</a>@gmail.com
 
 exclude:
   - Gemfile*
