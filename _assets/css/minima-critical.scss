@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+// Import partials.
+@import
+  "config",
+  "mixins",
+  "minima/base-critical",
+  "minima/layout-critical"
+;
