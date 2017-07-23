@@ -27,6 +27,7 @@ theme: minima
 
 permalink: /posts/:title/
 plugins:
+  - jekyll-assets
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
