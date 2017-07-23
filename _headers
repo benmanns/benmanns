@@ -20,3 +20,6 @@
 {{ file.path | replace:'/index.html','/' }}
   Content-Type: text/html; charset=utf-8
 {%- endfor %}
+
+/assets/{{ assets["main.css"].digest_path }}
+  Cache-Control: public, immutable, max-age=31536000
