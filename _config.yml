@@ -18,7 +18,7 @@ email: benmanns@gmail.com
 description:
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.benmanns.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: benmanns
+twitter_username: &twitter_username benmanns
 github_username: benmanns
 
 # Build settings
@@ -45,3 +45,19 @@ mailhide: >-
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# SEO Tag
+twitter:
+  username: *twitter_username
+facebook:
+ app_id: 510403205958630
+ publisher: 616977745
+ admins: 616977745
+social:
+  links:
+    - https://twitter.com/benmanns
+    - https://www.facebook.com/bfmanns
+    - https://www.linkedin.com/in/benmanns
+    - https://plus.google.com/104034123103894699115
+    - https://github.com/benmanns
+    - https://keybase.io/benmanns
