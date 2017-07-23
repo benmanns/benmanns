@@ -48,7 +48,7 @@ mailhide: >-
 #   - vendor/ruby/
 
 include:
-  _headers
+  - _headers
 
 # SEO Tag
 twitter:
