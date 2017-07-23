@@ -1,5 +1,9 @@
 ---
 ---
+/*
+  Server:
+  Strict-Transport-Security: max-age=31536000
+
 {%- assign collections = site.collections | where_exp:'collection','collection.output != false' %}
 {%- for collection in collections %}
   {%- assign docs = collection.docs | where_exp:'doc','doc.sitemap != false' %}
