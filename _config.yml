@@ -46,6 +46,9 @@ mailhide: >-
 #   - vendor/gems/
 #   - vendor/ruby/
 
+include:
+  _headers
+
 # SEO Tag
 twitter:
   username: *twitter_username
