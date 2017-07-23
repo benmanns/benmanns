@@ -3,6 +3,9 @@
 /*
   Server:
   Strict-Transport-Security: max-age=31536000
+  X-Frame-Options: SAMEORIGIN
+  X-XSS-Protection: 1; mode=block
+  X-Content-Type-Options: nosniff
 
 {%- assign collections = site.collections | where_exp:'collection','collection.output != false' %}
 {%- for collection in collections %}
