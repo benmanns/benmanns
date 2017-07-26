@@ -8,6 +8,7 @@
   X-XSS-Protection: 1; mode=block
   X-Content-Type-Options: nosniff
   Referrer-Policy: no-referrer-when-downgrade
+  Expect-CT: enforce; max-age=30
 
 {%- assign collections = site.collections | where_exp:'collection','collection.output != false' %}
 {%- for collection in collections %}
