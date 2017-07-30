@@ -68,3 +68,6 @@ social:
     - https://plus.google.com/104034123103894699115
     - https://github.com/benmanns
     - https://keybase.io/benmanns
+
+jekyll-minifier:
+  exclude: _headers
