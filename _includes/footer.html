@@ -16,7 +16,7 @@
             </li>
             {% if site.mailhide %}
             <li>
-              <a href="{{ site.mailhide.uri | escape }}" onclick="window.open(this.getAttribute('href'), '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">{{ site.mailhide.text_pre | escape }}</a>{{ site.mailhide.text_post | escape }}
+              <a data-mailhide href="{{ site.mailhide.uri | escape }}" title="Reveal this e-mail address">{{ site.mailhide.text_pre | escape }}</a>{{ site.mailhide.text_post | escape }}
             </li>
             {% elsif site.email %}
             <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
@@ -48,3 +48,7 @@
   </div>
 
 </footer>
+
+{% if site.mailhide %}
+<script async src="{% asset_path mailhide.js %}"></script>
+{% endif %}
