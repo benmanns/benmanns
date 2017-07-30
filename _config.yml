@@ -33,7 +33,10 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-mailhide: <a href="https://www.google.com/recaptcha/mailhide/d?k=01p4aq0kLFnP8mRT5mFoT7pw==&amp;c=uEqgETHhuPHioiZ9soZvUb51S9wBZulVkUsxrkZvj-Q=" onclick="window.open('https://www.google.com/recaptcha/mailhide/d?k=01p4aq0kLFnP8mRT5mFoT7pw==&c=uEqgETHhuPHioiZ9soZvUb51S9wBZulVkUsxrkZvj-Q=', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">benm...ns</a>@gmail.com
+mailhide:
+  uri: https://www.google.com/recaptcha/mailhide/d?k=01p4aq0kLFnP8mRT5mFoT7pw==&c=uEqgETHhuPHioiZ9soZvUb51S9wBZulVkUsxrkZvj-Q=
+  text_pre: benm...ns
+  text_post: "@gmail.com"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

@@ -15,7 +15,9 @@
             {% endif %}
             </li>
             {% if site.mailhide %}
-            <li>{{ site.mailhide }}</li>
+            <li>
+              <a href="{{ site.mailhide.uri | escape }}" onclick="window.open('{{ site.mailhide.uri | escape }}', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">{{ site.mailhide.text_pre | escape }}</a>{{ site.mailhide.text_post | escape }}
+            </li>
             {% elsif site.email %}
             <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {% endif %}
