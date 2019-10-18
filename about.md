@@ -8,4 +8,4 @@ I (Ben) am a software engineer at [Doximity](https://www.doximity.com/about/comp
 
 More info is in my [résumé](https://s3.amazonaws.com/benmanns-assets/resume.pdf). I am not actively seeking employment opportunities<!-- so please stop calling! -->.
 
-Feel free to [schedule a call or coffee date in Williamsburg, Brooklyn, NY](https://calendly.com/benmanns) if you have anything you'd like to discuss.
+Feel free to [schedule a call](https://calendly.com/benmanns) if you have anything you'd like to discuss.
